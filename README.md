@@ -39,5 +39,13 @@ The recommendation system predicts user ratings and recommends similar movies ba
 - Add content-based recommendations.
 - Improve model performance using deep learning.
 
+## Model Performance
+
+- Best RMSE (Grid Search): **1.0004**
+- Final RMSE: **1.0102**
+- Final MAE: **0.8109**
+
+The recommendation model was optimized using GridSearchCV with Singular Value Decomposition (SVD), resulting in improved prediction accuracy.
+
 ## Author
 **Tharani Pasupathi**
